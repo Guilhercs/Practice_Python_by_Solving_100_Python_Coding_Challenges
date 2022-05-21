@@ -22,3 +22,11 @@ def give_me_something(a):
 
 
 print(give_me_something("oi"))
+
+#need a input
+
+a = input("digit txt: ")
+def give_me_something(a):
+  return "something " + a
+
+print(give_me_something(a))
